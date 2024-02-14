@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    height:400%;
+    background-color: rgb(165, 220, 215);
+    padding: 10%;
+}
+
+
+h2 {
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(165, 220, 215, 0.545);
+}
+
+#area {
+    padding-bottom: 2%;
+}
+
+#timer {
+    font-size:  150%;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+#btn1,#btn2 {
+    display: none;
+}
+
+.btn {
+    font-size: 200%;
+}
+
+#ans1,#ans2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10%;
+}
+
+#btn1:hover + #ans1 {
+    background-color: skyblue;
+}
+
+#btn2:hover + #ans2 {
+    background-color: skyblue;
+}
+
+#btn1:checked + #ans1 {
+    background-color: skyblue;
+}
+
+#btn2:checked + #ans2 {
+    background-color: skyblue;
+}
+
+#point {
+    padding-top: 2%;
+}
+
+#OorX{
+    font-size: 500%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    border-radius: 10%;
+}
